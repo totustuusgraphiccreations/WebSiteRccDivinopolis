@@ -1,0 +1,124 @@
+/* 1.10.21 SECTION TITLE
+================================== */
+.section-title {
+  min-height: 35px;
+  padding: 30px 25px 20px 0px;
+  position: relative;
+  border-bottom: 2px solid #1fb7a6;
+}
+.section-title.no-margin {
+  margin-top: 0;
+}
+.section-title .title {
+  min-height: 37px;
+  font-size: 12px;
+  padding: 6px 10px 0;
+  background-color: #1fb7a6;
+  color: #ffffff;
+  line-height: 1;
+  float: left;
+  margin: 0;
+  position: absolute !important;
+  top: auto;
+  right: auto;
+  bottom: -2px;
+  left: 0;
+  z-index: 1;
+  text-transform: capitalize;
+}
+
+.section-title.line-style {
+  border-bottom: 4px solid #F2F2F2;
+}
+.section-title.line-style .title {
+  background-color: transparent;
+  color: #777;
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 4px solid #1fb7a6;
+  bottom: -4px;
+	font-size: 100%;
+}
+
+.section-title .icon {
+  position: absolute !important;
+  top: 10px;
+  right: 0;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  cursor: pointer;
+  color: #777;
+}
+.section-title .icon:hover {
+  color: #333;
+}
+.profile {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  /* > li */
+  /* &.create */
+}
+.profile > li {
+  position: relative;
+  font-weight: 300;
+  padding: 10px 30px 10px 130px;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px dotted #E5E5E5;
+  text-align: justify;
+}
+.profile > li.disable {
+  color: #aaa;
+}
+.profile > li .set-privacy,
+.profile > li .icon {
+  position: absolute !important;
+  top: 16px;
+  right: 0;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  color: #CCC;
+  font-size: 13px;
+  cursor: pointer;
+}
+.profile > li .set-privacy {
+  color: #CCC;
+  right: 20px;
+}
+.profile > li .set-privacy:hover {
+  color: #333;
+}
+.profile > li .icon:hover {
+  color: #333;
+}
+.profile > li > span {
+  display: inline-block;
+  font-weight: 100;
+  color: #555 !important;
+  font-size: 15px;
+  position: absolute !important;
+  top: 10px;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  z-index: 1;
+}
+.profile > li.title {
+  font-size: 18px;
+  color: #999;
+  padding: 6px 0;
+  margin-bottom: 6px;
+  border-bottom: 1px dotted #ccc;
+}
+.profile.create > li {
+  padding: 14px 0 14px 130px;
+}
+.profile.create table tr td {
+  padding-right: 14px;
+}
+.profile.create .dropdown {
+  min-width: 110px;
+}

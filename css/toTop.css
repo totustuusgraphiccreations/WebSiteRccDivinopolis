@@ -1,0 +1,19 @@
+#toTop {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #009772 0%, rgba(0, 117, 85, 0.84) 100%);
+  position: fixed;
+  bottom: 15px;
+  right: 40px;
+  font-weight: 700;
+  text-align: center;
+  display: none;
+  z-index: 9999;
+  transition: all 0.3s ease-out;
+    color: #fff; }
+  #toTop:hover {
+    color: #fff;
+    background: #009772;
+    transition: all 0.3s ease-out; }
